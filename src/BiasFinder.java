@@ -6,8 +6,6 @@ final class BiasFinder {
     private HashSet<String> conservativeSources = new HashSet<>();
     private HashSet<String> liberalSources = new HashSet<>();
 
-    enum Bias {CONSERVATIVE, LIBERAL, UNKNOWN}
-
     private BiasFinder() {
         conservativeSources.add("Fox");
         conservativeSources.add("Blaze");
